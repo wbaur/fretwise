@@ -16,6 +16,13 @@ npm run build        # production build in dist/
 npm run preview      # serve the production build (service worker active here)
 ```
 
+### Hosted on GitHub Pages
+
+Every push to `main` builds the app and publishes it to GitHub Pages
+(`.github/workflows/deploy.yml`). It's served over HTTPS, so the mic and
+"Add to Home Screen" work on your phone from anywhere. One-time setup: in the
+repo, **Settings → Pages → Source: GitHub Actions**.
+
 ### On your phone (same Wi-Fi)
 
 Phones only allow the microphone on HTTPS pages, so use:
