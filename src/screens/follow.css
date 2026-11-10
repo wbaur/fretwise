@@ -1,0 +1,39 @@
+.follow-card { align-items: center; text-align: center; }
+.follow-chords { display: flex; align-items: center; justify-content: center; gap: 28px; flex-wrap: wrap; }
+.follow-current { display: flex; flex-direction: column; align-items: center; }
+.follow-name { font-size: 2.6rem; font-weight: 900; line-height: 1; margin-top: -6px; }
+.follow-next { display: flex; flex-direction: column; align-items: center; gap: 2px; opacity: .75; min-width: 90px; }
+.get-ready { margin-top: 4px; padding: 3px 10px; border-radius: 99px; background: #fff3cf; color: #9a6a00; font-weight: 800; font-size: .85rem; animation: pulse 0.6s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .6; } }
+
+.follow-status { font-size: 1.2rem; font-weight: 900; min-height: 1.6em; }
+.follow-status.counting { color: #9a6a00; }
+
+.beat-lights { display: flex; gap: 12px; }
+.beat-lights span {
+  display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%;
+  background: var(--line); font-weight: 900; color: var(--muted); transition: transform .06s, background .06s;
+}
+.beat-lights span.on { background: var(--brand); color: #fff; transform: scale(1.12); }
+.beat-lights span.on.count { background: #ffc93c; color: #3d2a00; }
+
+.strum-row { display: flex; gap: 6px; justify-content: center; margin: 4px 0; }
+.stroke { display: flex; flex-direction: column; align-items: center; width: 44px; padding: 6px 0; border-radius: 12px; transition: background .06s; }
+.stroke .arrow { font-size: 1.8rem; font-weight: 900; line-height: 1; color: var(--muted); }
+.stroke .count { font-size: .85rem; font-weight: 800; color: var(--muted); }
+.stroke.on { background: #efeafe; }
+.stroke.on .arrow { color: var(--brand); }
+.strum-row.down-up .stroke { width: 36px; }
+
+.follow-controls { display: flex; align-items: center; gap: 16px; }
+.follow-controls .icon-btn { font-size: 1.6rem; font-weight: 900; }
+.bpm { display: flex; flex-direction: column; align-items: center; min-width: 60px; }
+.bpm b { font-size: 1.8rem; line-height: 1; }
+.follow-start { min-width: 200px; }
+.follow-stats { margin: 0; font-variant-numeric: tabular-nums; }
+.follow-card .step-tip { align-self: stretch; text-align: left; }
+
+@media (max-width: 420px) {
+  .beat-lights span { width: 40px; height: 40px; }
+  .strum-row.down-up .stroke { width: 32px; }
+}

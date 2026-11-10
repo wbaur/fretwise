@@ -1,0 +1,130 @@
+{
+  "id": "ex-spider",
+  "kind": "exercise",
+  "title": "Spider Walk (1-2-3)",
+  "difficulty": 2,
+  "bpm": 60,
+  "beatsPerBar": 4,
+  "description": "One finger per fret: frets 1, 2, 3 on each string, low to high.",
+  "lengthBeats": 24,
+  "sections": [
+    {
+      "name": "Low strings",
+      "start": 0
+    },
+    {
+      "name": "High strings",
+      "start": 12
+    }
+  ],
+  "notes": [
+    {
+      "string": 5,
+      "fret": 1,
+      "start": 0,
+      "duration": 1
+    },
+    {
+      "string": 5,
+      "fret": 2,
+      "start": 1,
+      "duration": 1
+    },
+    {
+      "string": 5,
+      "fret": 3,
+      "start": 2,
+      "duration": 1
+    },
+    {
+      "string": 4,
+      "fret": 1,
+      "start": 4,
+      "duration": 1
+    },
+    {
+      "string": 4,
+      "fret": 2,
+      "start": 5,
+      "duration": 1
+    },
+    {
+      "string": 4,
+      "fret": 3,
+      "start": 6,
+      "duration": 1
+    },
+    {
+      "string": 3,
+      "fret": 1,
+      "start": 8,
+      "duration": 1
+    },
+    {
+      "string": 3,
+      "fret": 2,
+      "start": 9,
+      "duration": 1
+    },
+    {
+      "string": 3,
+      "fret": 3,
+      "start": 10,
+      "duration": 1
+    },
+    {
+      "string": 2,
+      "fret": 1,
+      "start": 12,
+      "duration": 1
+    },
+    {
+      "string": 2,
+      "fret": 2,
+      "start": 13,
+      "duration": 1
+    },
+    {
+      "string": 2,
+      "fret": 3,
+      "start": 14,
+      "duration": 1
+    },
+    {
+      "string": 1,
+      "fret": 1,
+      "start": 16,
+      "duration": 1
+    },
+    {
+      "string": 1,
+      "fret": 2,
+      "start": 17,
+      "duration": 1
+    },
+    {
+      "string": 1,
+      "fret": 3,
+      "start": 18,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 1,
+      "start": 20,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 2,
+      "start": 21,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 3,
+      "start": 22,
+      "duration": 1
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.chord-diagram { display: block; margin: 0 auto; }
+.mini-fretboard, .tab-view, .rhythm-row { display: block; width: 100%; margin: 0 auto; }
+.mini-fretboard.tappable .tap-cell { fill: transparent; cursor: pointer; }
+.mini-fretboard.tappable .tap-cell:hover { fill: rgba(108, 76, 245, .25); }
+.visual-emoji { font-size: 64px; text-align: center; line-height: 1.2; }

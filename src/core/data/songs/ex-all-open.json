@@ -1,0 +1,140 @@
+{
+  "id": "ex-all-open",
+  "kind": "exercise",
+  "title": "Open Strings: All Six",
+  "difficulty": 1,
+  "bpm": 70,
+  "beatsPerBar": 4,
+  "description": "Walk across all six open strings, thick to thin and back.",
+  "lengthBeats": 24,
+  "sections": [
+    {
+      "name": "Down",
+      "start": 0
+    },
+    {
+      "name": "Up",
+      "start": 8
+    },
+    {
+      "name": "Again",
+      "start": 16
+    }
+  ],
+  "notes": [
+    {
+      "string": 5,
+      "fret": 0,
+      "start": 0,
+      "duration": 1
+    },
+    {
+      "string": 4,
+      "fret": 0,
+      "start": 1,
+      "duration": 1
+    },
+    {
+      "string": 3,
+      "fret": 0,
+      "start": 2,
+      "duration": 1
+    },
+    {
+      "string": 2,
+      "fret": 0,
+      "start": 3,
+      "duration": 1
+    },
+    {
+      "string": 1,
+      "fret": 0,
+      "start": 4,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 5,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 8,
+      "duration": 1
+    },
+    {
+      "string": 1,
+      "fret": 0,
+      "start": 9,
+      "duration": 1
+    },
+    {
+      "string": 2,
+      "fret": 0,
+      "start": 10,
+      "duration": 1
+    },
+    {
+      "string": 3,
+      "fret": 0,
+      "start": 11,
+      "duration": 1
+    },
+    {
+      "string": 4,
+      "fret": 0,
+      "start": 12,
+      "duration": 1
+    },
+    {
+      "string": 5,
+      "fret": 0,
+      "start": 13,
+      "duration": 1
+    },
+    {
+      "string": 5,
+      "fret": 0,
+      "start": 16,
+      "duration": 1
+    },
+    {
+      "string": 4,
+      "fret": 0,
+      "start": 17,
+      "duration": 1
+    },
+    {
+      "string": 3,
+      "fret": 0,
+      "start": 18,
+      "duration": 1
+    },
+    {
+      "string": 2,
+      "fret": 0,
+      "start": 19,
+      "duration": 1
+    },
+    {
+      "string": 1,
+      "fret": 0,
+      "start": 20,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 21,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 22,
+      "duration": 2
+    }
+  ]
+}

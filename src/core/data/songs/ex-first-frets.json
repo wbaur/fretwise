@@ -1,0 +1,94 @@
+{
+  "id": "ex-first-frets",
+  "kind": "exercise",
+  "title": "First Frets on High E",
+  "difficulty": 1,
+  "bpm": 65,
+  "beatsPerBar": 4,
+  "description": "Your first fretted notes: open, 1st and 3rd fret on the thinnest string.",
+  "lengthBeats": 16,
+  "sections": [
+    {
+      "name": "Climb",
+      "start": 0
+    },
+    {
+      "name": "Descend",
+      "start": 8
+    }
+  ],
+  "notes": [
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 0,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 1,
+      "start": 1,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 3,
+      "start": 2,
+      "duration": 2
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 4,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 1,
+      "start": 5,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 3,
+      "start": 6,
+      "duration": 2
+    },
+    {
+      "string": 0,
+      "fret": 3,
+      "start": 8,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 1,
+      "start": 9,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 10,
+      "duration": 2
+    },
+    {
+      "string": 0,
+      "fret": 3,
+      "start": 12,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 1,
+      "start": 13,
+      "duration": 1
+    },
+    {
+      "string": 0,
+      "fret": 0,
+      "start": 14,
+      "duration": 2
+    }
+  ]
+}
